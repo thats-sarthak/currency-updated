@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Currency Converter</h1>
+    <div class="row">
+      <div class="col">
+        <select name="currency" class="currency1"> 
+        	<option>select</option>
+        </select>
+        <input type="text" name="" id="input_currency">
+      </div>
+      <div class="col">
+        <select name="currency" class="currency2">
+        	<option>select</option>
+        </select>
+        <input type="text" name="" id="output_currency" class="output" disabled>
+      </div>
+
+      <div class="buttons">
+      <i class="fa-solid fa-right-left" onClick="swap()"></i>
+     </div>
+
+    </div>
+    <button onClick="convert()">Convert</button>
+   
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

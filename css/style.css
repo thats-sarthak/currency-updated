@@ -1,0 +1,85 @@
+*,*after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	font-size: 16px;
+	margin: 0;
+	background: linear-gradient(to right bottom, #007673, #0e0066);
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.container{
+	width: 600px;
+}
+h1{
+	font-size: 60px;
+	text-align: center;
+}
+.row{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.col{
+	width: 48%;
+}
+select,
+input{
+	width: 100%;
+	margin-bottom: 15px;
+	font-size: 20px;
+	padding:8px 15px;
+	font-weight: 700
+}
+input{
+	width: 100%;
+	padding: 10px 15px;
+}
+button{
+	width: 200px;
+	display: block;
+	padding: 10px;
+	text-align: center;
+	margin:0 auto;
+	font-size: 22px;
+	border-radius: 15px;
+	background-color: #e62e00;
+	color: #fff;
+	border:0;
+	cursor: pointer;
+    margin-left: 100px;
+}
+
+.buttons{
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    background-color:black;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+
+.buttons:hover{
+    color: black;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.output{
+    background-color: #D3D3D3;
+   width: 260px;
+}
